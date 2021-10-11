@@ -1,1 +1,1 @@
-# latex
+# latex templates
