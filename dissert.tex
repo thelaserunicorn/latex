@@ -1,0 +1,135 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{mdframed}
+\usepackage{hyperref}
+\graphicspath{ {./images/} }
+
+\newenvironment{problem}[2][Problem]
+    { \begin{mdframed}[backgroundcolor=gray!20] \textbf{\Large #1 #2} \\}
+    {  \end{mdframed}}
+
+% Define solution environment
+\newenvironment{solution}{\textbf{\Large Solution}}
+
+
+\begin{document}
+
+\begin{center}
+  \includegraphics[scale=1]{uol-logo}
+\end{center}
+
+{\vspace{5em}}
+
+\begin{center}
+  \Huge{{\textbf{MAT 110}}}
+\end{center}
+\begin{center}
+  \LARGE{{\textbf{Assignment-1}}}
+\end{center}
+{\vspace{7em}}
+
+\begin{center}
+  \begin{tabular}{|lp{6.0cm}lll|}
+    \hline
+    &  &  &  & \\
+    &  &  &  & \\
+    \textbf{\Large Student Name:} & \Large Your name
+    
+    \  &  &  & \\
+    \textbf{\Large Student ID:} &  \Large 2012123456
+    
+    \  &  &  & \\
+    \textbf{\Large Project Title:} &  \Large Calculus
+    
+    \  &  &  & \\
+    \hline
+  \end{tabular}
+\end{center}
+
+\
+
+
+
+{\medskip}
+
+\begin{center}
+  October 13, 2021
+\end{center}
+
+{\newpage}
+
+%% Write your content here
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+% Edit these as appropriate
+\newcommand\course{MAT 110}
+\newcommand\hwnumber{1}                  % <-- homework number
+\newcommand\StudentName{Lorem Ipsum}           % <-- NetID of person #1
+\newcommand\StudentID{netid12038}           % <-- NetID of person #2 (Comment this line out for problem sets)
+
+
+{\newpage}
+
+%% Write your content here
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+\lhead{\StudentName}
+\lhead{\StudentName\\\StudentID}                 % <-- Comment this line out for problem sets (make sure you are person #1)
+\chead{\textbf{\Large Assignment \hwnumber}}
+\rhead{\course \\ \today}
+\lfoot{}
+\cfoot{\small\thepage}
+\headsep 3em
+
+\begin{problem}{1}
+    This is a simple math expression \(\sqrt{x^2+1}\) inside text. 
+And this is also the same: 
+\begin{math}
+\sqrt{x^2+1}
+\end{math}
+\end{problem}
+
+\begin{solution}
+\begin{gather*} 
+2x - 5y =  8 \\ 
+3x^2 + 9y =  3a + c + 2x - y^2 + \dfrac{3}{5}\\
+\textbf{Lorem Ipsum}\\
+3y - 2z
+\end{gather*}
+\end{solution}
+
+\begin{problem}{2}
+    This is a simple math expression \(\sqrt{x^2+1}\) inside text. 
+And this is also the same: 
+\begin{math}
+\sqrt{x^2+1}
+\end{math}
+\end{problem}
+
+\begin{solution}\\[16pt]
+\begin{math} 
+2x - 5y =  8 \\ 
+3x^2 + 9y =  3a + c + 2x - y^2 + \dfrac{3}{5}\\
+\textbf{Lorem Ipsum}\\
+3y - 2z
+\end{math}
+\end{solution}
+
+\end{document}
+
